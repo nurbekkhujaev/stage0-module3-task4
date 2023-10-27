@@ -6,7 +6,7 @@ public class FormulaCreator {
         a = b = 0;
         double ans;
 
-        ans = (9 * a * a - 5 * b + 2 + a - 7) * ((double) (a + b - 4 * a * b) / 2);
+        ans = (9 * a * a - 5 * b + 2 + a - 7) * (a + b - 4 * a * b) / 2.0;
 
 
     }
